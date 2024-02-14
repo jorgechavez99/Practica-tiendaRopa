@@ -32,13 +32,26 @@
         <h2>Camisetas más vendidas</h2>
     </header>  
    
-    <section>
-        <ul>
-            <li>Rojo</li>
-            <li>Verde</li>
-            <li>Azul</li>
+    <nav  >
+        <ul class="filtro" >
+            <p>Filtro</p>
+            <div>
+                <img src="./assets/icons/Vector_2.svg" alt="icon_right" id="icon_right">
+            </div>
+            <li class="boton-filtro">
+                <img src="./assets/icons/Circulo_rojo.svg" alt="iconRed">
+                <a>Rojo</a>
+            </li>
+            <li class="boton-filtro">
+                <img src="./assets/icons/Circulo_verde.svg" alt="iconRed">
+                <a>Verde</a>
+            </li>
+            <li class="boton-filtro">
+                <img src="./assets/icons/Circulo_azul.svg" alt="iconRed">
+                <a>Azul</a>
+            </li>
         </ul>
-    </section>
+    </nav>
 
 
     <section class="section-card">
@@ -78,12 +91,12 @@
     
     <p class="text-footer">Únete a nuestro newsletter</p>
 
-<form>
-   
-    <input type="email" id="email">
-    <input type="submit" value="Suscribete">
+    <form class="container-form">
+    
+        <input type="email" id="email" placeholder="E-mail">
+        <input type="submit" value="Suscribete" class="boton-footer" >
 
-</form>
+    </form>
 
 </footer>
 
